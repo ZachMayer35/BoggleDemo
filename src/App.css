@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 50px;
+}
+
+.App-header {
+  background-color: #222;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.navbar-brand {
+  padding: 0px 15px;
+}
+
+.boggle-board {
+  margin: 0px auto;
+}
+.boggle-board td {  
+  border: solid 1px #ccc;
+}
+.boggle-tile {
+  padding: 20px;
+  font-size: 15px; 
+  font-weight: bold;
+}
+.boggle-tile span {
+  height: 20px;
+  width:20px;
+  display: inline-block;
+}
+.boggle-tile.bg-red {
+  background-color:red;
+  color: white;
+}
+.boggle-tile.bg-green {
+  background-color:green;
+  color: white;
+}
